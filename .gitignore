@@ -1,2 +1,6 @@
-﻿*.docx
+*.docx
 *.xlsx
+
+# Godot 4+ specific ignores
+.godot/
+/android/
