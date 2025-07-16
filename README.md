@@ -1,16 +1,6 @@
-# Farm Deck (Work In Progress)
+# My First 2D Game
 
-My first game, made in [Godot Engine](https://github.com/godotengine/godot), it's a deckbuilding game where the deck is built via farming.
-
-## Game Mechanics
-
-- Start with some starter seeds and a farm
-- Plant your seeds, grow and harvest the crops
-- Harvesting crops unlock new cards
-- Use the cards to build a deck
-- Challenge a dungeon
-- Monsters drop seeds as loots.
-- Plant the new seeds and unlock new crops and cards
+My first game, made in [Godot Engine](https://github.com/godotengine/godot), following this [tutorial](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html#contents)
 
 ## License
 This work is licensed under a MIT License.
