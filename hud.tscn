@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://cqkt22hko8c6"]
+[gd_scene load_steps=3 format=3 uid="uid://cqkt22hko8c6"]
 
 [ext_resource type="FontFile" uid="uid://cj5s7ne7d0eov" path="res://fonts/Xolonium-Regular.ttf" id="1_37p78"]
+[ext_resource type="Script" uid="uid://ccgufkciwa7is" path="res://hud.gd" id="1_64ctp"]
 
 [node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_64ctp")
 
 [node name="StartButton" type="Button" parent="."]
 anchors_preset = 7
@@ -56,3 +58,6 @@ vertical_alignment = 1
 [node name="MessageTimer" type="Timer" parent="."]
 wait_time = 2.0
 one_shot = true
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="timeout" from="MessageTimer" to="." method="_on_message_timer_timeout"]
